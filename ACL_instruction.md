@@ -11,4 +11,12 @@
 >頂点uの根の頂点番号(int)を返す
 ### ・ds.size(u)
 >頂点uが属している連結グラフの頂点数(int)を返す。
+## ---fenwick-tree---
+>配列の一点更新＆区間和を高速(O(logN))で求められる
+### ・fenwick_tree<type> fk(N);
+>Nサイズの変数の型が<type>のfenwick-treeインスタンスを作成(配列は0-indexed)
+### ・fk.add(p,x)
+>fkのindexがpであるものにxを加算
+### ・fk.sum(l,r)
+>fkの[l,r)の半開区間の和を型<type>で返す。
 
