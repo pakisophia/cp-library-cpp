@@ -19,4 +19,6 @@
 >fkのindexがpであるものにxを加算
 ### ・fk.sum(l,r);
 >fkの[l,r)の半開区間の和を型<type>で返す。
+## ---modint---
+>使い方参照[https://atcoder.github.io/ac-library/production/document_ja/modint.html]
 
