@@ -1,4 +1,4 @@
-'''エラトステネスの篩(O(NloglogN)で素数列挙するアルゴリズム）
+//エラトステネスの篩(O(NloglogN)で素数列挙するアルゴリズム）
 
 // 1 以上 N 以下の整数が素数かどうかを返す
 vector<bool> Eratosthenes(int N) {
