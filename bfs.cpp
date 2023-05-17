@@ -1,8 +1,8 @@
-void bfs(const Graph &G,int s){
+void bfs(//何かしらの変数（大体vector<vector<ll>> &G,int s){
     int N =(int)G.size();
 
     vector<bool> seen(N,false);
-    queue<int> todo;
+    queue<ll> todo;
 
     seen[s] = true;
     todo.push(s);
